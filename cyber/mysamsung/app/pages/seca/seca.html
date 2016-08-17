@@ -1,0 +1,21 @@
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 400px;
+    }
+    th, td {
+        padding: 15px;
+    }
+</style>
+
+<div ng-controller="SecaController as vm">
+    <p>META</p>
+    <p>{{vm.meta}}</p>
+
+    <p>DATA</p>
+    <p>{{vm.data}}</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
